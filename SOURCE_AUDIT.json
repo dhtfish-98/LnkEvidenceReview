@@ -1,0 +1,198 @@
+{
+  "scope": "all new runtime, tests, packaging, CI, provenance and licenses; this inventory excludes its own bytes",
+  "reviewer": "OpenAI Codex-assisted implementer; independent review separately OPEN",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 993,
+      "sha256": "fe6f5acaa1de1ed1d656d4e9e8997bbb6c6f199eee6f5d620086bb4a80a82aa7",
+      "review": "complete_file"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 108,
+      "sha256": "27f01e663ce90de65f4e6200901a72bdd5e07c1c8b081ec7292b15e14223ac8a",
+      "review": "complete_file"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 5509,
+      "sha256": "1ed2d92e0fe7fb04a09b4b58560facfef1253cbe762a69972583e44d89c6f713",
+      "review": "complete_file"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1087,
+      "sha256": "63082994c4818166e3a1c64fe68c8ad14057d367f5058efc3095d0b5f042eb2e",
+      "review": "complete_file"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 293,
+      "sha256": "c3395777bb23bfe02384caaa299ef7fbec6eba22298a1931b239dc4365aafb2a",
+      "review": "complete_file"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 799,
+      "sha256": "dc4990ddaeadadf0ade0b3a41a696196f4ea0c300943d49aec35b992fe40bfe2",
+      "review": "complete_file"
+    },
+    {
+      "path": "ORIGIN.md",
+      "bytes": 2677,
+      "sha256": "bd0bf32a46a6da8aa3d0f56a8fb082547eecdafa826b39e9de8a5a4038a5109c",
+      "review": "complete_file"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5103,
+      "sha256": "ed72009fe6c1ca91f9b39d1b284e698cf70115777df455a22eaba8d2b8bf9f4f",
+      "review": "complete_file"
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "bytes": 25666,
+      "sha256": "e6a717e90052d29344244297887d6b91b1eb08c85c624b2fed8a46e8406e1659",
+      "review": "complete_file"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3040,
+      "sha256": "be177f595419f48422b3675a63e720d231d23fa041db6eb87245e5b6a8636b83",
+      "review": "complete_file"
+    },
+    {
+      "path": "licenses/LnkParse3-MIT.txt",
+      "bytes": 1116,
+      "sha256": "f87b93b2508c109a6bd212eb9f7cb0d572a08bd5ae21d487e982d2fa1efc7735",
+      "review": "complete_file"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 915,
+      "sha256": "a7411bbe6179a9b8a0b1e5f5722cef386a4abdbc98a0264bbf7b6261436bc335",
+      "review": "complete_file"
+    },
+    {
+      "path": "requirements-build.lock",
+      "bytes": 480,
+      "sha256": "3e6df0d3584b7246949b6d6f54a0eccd7d5a438f7fed0ee8112433c767858384",
+      "review": "complete_file"
+    },
+    {
+      "path": "scripts/verify_consumer.py",
+      "bytes": 4923,
+      "sha256": "728af5d25b89e9af0e7fb5e336f02473e80833dcad18ad4827bbf83b372c36a7",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/__init__.py",
+      "bytes": 212,
+      "sha256": "ed35dcddf46828b53a2a0a4a99e789dea5ab789cb12ad6115b5cbdcccf39b15e",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/__main__.py",
+      "bytes": 48,
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/binary.py",
+      "bytes": 2801,
+      "sha256": "66f096b5a564b533bb5fe0a9fb064c27b4103b870627794ffe6fb685e1757e77",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/cli.py",
+      "bytes": 2009,
+      "sha256": "a2fdb6b7c4a9e54f75887ef3d55f693d90653fa948e96fff9e883e6795f0c800",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/contracts.py",
+      "bytes": 1312,
+      "sha256": "f7ee402095aeeb3c2a90665470bc98f3ff941434e923a5d6c33192ec4efde974",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/extra.py",
+      "bytes": 6185,
+      "sha256": "528f5d66a1a01549d5201fa68488ad49d7815aa94b48ccd5ce427c65cc74eb5c",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/files.py",
+      "bytes": 2625,
+      "sha256": "d94499ab994ef06e629f510f3d60d6537c988c56701ae13ff49dd3f0605d689f",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/header.py",
+      "bytes": 2747,
+      "sha256": "04d750c08d735415ea6adab37eb29b13f395a42bb2765f63e873fe549db0512a",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/idlist.py",
+      "bytes": 1355,
+      "sha256": "ae633be8c26b23b176d120f26e4bf84f7f09c6cc7b1da1c97746a1a55341c285",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/linkinfo.py",
+      "bytes": 5474,
+      "sha256": "760c9a77ebd694c8de4455d02dbcca9b5b3414997b2b3fc3a933b6aa944a8f33",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/property_store.py",
+      "bytes": 6719,
+      "sha256": "932f2fd5dd3ca9f99b8278a5e76ef5956c0b94ba0cabe49b3d79766b1b6493ee",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/review.py",
+      "bytes": 5083,
+      "sha256": "137ea71fe08116f6a30c39575ae23519d77408b477c5fba6444bd04b63c91dc7",
+      "review": "complete_file"
+    },
+    {
+      "path": "src/lnk_evidence_review/text.py",
+      "bytes": 3916,
+      "sha256": "984c80c44a6109f807e39b9ad8a353641495547b69f7933e7c2bdff9c6a9e7cf",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "bytes": 4922,
+      "sha256": "a05791d7599654a9a39668b9edd0e405ba05d000eac3d88b6b7c6f0756cf00e7",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/ms-shllink-10.0-file.hex",
+      "bytes": 919,
+      "sha256": "4e34e16945eb7b9548eb25d5e027051edf9a83d6f6cbb80124e4341ea8aa1dc8",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/test_files_cli.py",
+      "bytes": 4807,
+      "sha256": "b8b0c1e4e570ce341c2cf83149364d0fcfb4cd879ae9075294f1427bc36cf8b6",
+      "review": "complete_file"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 28118,
+      "sha256": "8351fd099f03054f0aca99edd35ffb4f38c4c1ce6a4f64aece7cabc5ea79f581",
+      "review": "complete_file"
+    }
+  ]
+}

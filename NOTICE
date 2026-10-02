@@ -1,0 +1,13 @@
+LnkEvidenceReview is an independently written defensive implementation, developed
+with OpenAI Codex assistance. It is not an official release of LnkParse3,
+Microsoft, or a CVP-approved project.
+
+The selected original implementation studied is Matmaus/LnkParse3, fixed commit
+ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb. Its original MIT license and copyright
+attribution are preserved verbatim in licenses/LnkParse3-MIT.txt.
+
+No original runtime, generated shortcut, captured personal shortcut, or target
+program is bundled or executed. Tests use synthetic metadata plus the 459-byte
+file example from Microsoft MS-SHLLINK 10.0 section 3.1. Microsoft's Open
+Specifications permission for sample implementations/examples applies to that
+small fixture; the complete specifications are not redistributed.

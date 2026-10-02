@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lnk-evidence-review"
+version = "0.1.0"
+description = "Bounded offline Windows Shell Link structure and reference metadata evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+dependencies = []
+
+[project.scripts]
+lnk-evidence-review = "lnk_evidence_review.cli:main"
+
+[project.urls]
+Repository = "https://github.com/dhtfish-98/LnkEvidenceReview"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lnk_evidence_review = ["py.typed"]
+
+[tool.setuptools.data-files]
+"share/lnk-evidence-review" = ["ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_REVIEW.json", "SOURCE_AUDIT.json", "requirements-build.lock"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501"]
