@@ -1,6 +1,8 @@
+> 目录已整理：文档在「项目文档」，构建、缓存与暂存输入在「Build」。从仓库根目录运行 `python3 构建.py --build`；如需使用本文原有源码命令，先运行 `python3 构建.py --stage --ci`，再进入 `Build/源码`。暂存会恢复原输入路径。现有版本和历史验证记录按各自提交理解。
+
 # LnkEvidenceReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 Read one caller-supplied Windows `.lnk` byte snapshot and produce bounded structure,
@@ -53,7 +55,7 @@ vendor-defined and retained with class byte, exact physical range and SHA-256;
 they remain OPEN. No universal namespace-to-path decoder is claimed. Darwin's
 descriptor is read as text but its MSI packed-identifier semantics remain OPEN.
 Property values support a documented finite scalar/string/GUID subset; other
-variants and opaque blobs remain OPEN. See [DEFENSIVE_SCOPE.md](DEFENSIVE_SCOPE.md).
+variants and opaque blobs remain OPEN. See [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>).
 
 Every admitted structure has a physical input offset, size and SHA-256. Unknown
 blocks are preserved as separate records, including duplicates and trailing bytes;
@@ -80,7 +82,7 @@ in each report. Fixed-field bytes after their first NUL are undefined and are ne
 interpreted as text, but the containing structure hash includes them.
 
 The original selected source, independent implementation boundaries and attribution
-are documented in [ORIGIN.md](ORIGIN.md), [SOURCE_REVIEW.json](SOURCE_REVIEW.json)
-and [NOTICE](NOTICE). Validation evidence is in [VALIDATION.md](VALIDATION.md).
+are documented in [ORIGIN.md](<ORIGIN.md>), [SOURCE_REVIEW.json](<../SOURCE_REVIEW.json>)
+and [NOTICE](<NOTICE>). Validation evidence is in [VALIDATION.md](<VALIDATION.md>).
 
 Safe local file input requires positive integer `O_DIRECTORY`, `O_NOFOLLOW`, `O_CLOEXEC`, `O_NONBLOCK` flags, plus directory-relative operations only where used by this reader. Missing, None, zero or boolean flags return the existing controlled unsupported/error result before opening input. File-reader validation covers macOS/Linux; native Windows safe file reading is not established.
