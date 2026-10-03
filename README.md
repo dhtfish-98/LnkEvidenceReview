@@ -1,5 +1,8 @@
 # LnkEvidenceReview
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 Read one caller-supplied Windows `.lnk` byte snapshot and produce bounded structure,
 reference-path and argument metadata evidence. The parser is written independently
 with Python's standard library. It never follows a target, icon, UNC share or URL,
@@ -7,7 +10,7 @@ expands an environment variable, resolves a Shell namespace, invokes MSI, or run
 a command. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.0-py3-none-any.whl
+python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.1-py3-none-any.whl
 lnk-evidence-review /absolute/authorized/sample.lnk > review.json
 lnk-evidence-review /absolute/authorized/sample.lnk --ansi-codepage cp1252 --show-text
 ```
@@ -79,3 +82,5 @@ interpreted as text, but the containing structure hash includes them.
 The original selected source, independent implementation boundaries and attribution
 are documented in [ORIGIN.md](ORIGIN.md), [SOURCE_REVIEW.json](SOURCE_REVIEW.json)
 and [NOTICE](NOTICE). Validation evidence is in [VALIDATION.md](VALIDATION.md).
+
+Safe local file input requires positive integer `O_DIRECTORY`, `O_NOFOLLOW`, `O_CLOEXEC`, `O_NONBLOCK` flags, plus directory-relative operations only where used by this reader. Missing, None, zero or boolean flags return the existing controlled unsupported/error result before opening input. File-reader validation covers macOS/Linux; native Windows safe file reading is not established.

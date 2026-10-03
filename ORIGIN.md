@@ -1,5 +1,8 @@
 # Source and independent implementation
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 The reference project is [Matmaus/LnkParse3](https://github.com/Matmaus/LnkParse3),
 fixed at `ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb`, under MIT. The original
 license is copied verbatim to `licenses/LnkParse3-MIT.txt`, retaining its original
@@ -9,7 +12,7 @@ reads, each matched to local bytes, fixed Git tree blob identity and independent
 retrieved fixed raw bytes. This does not claim the complete repository's tests,
 binary samples or all 142 repository blobs were audited.
 
-All new runtime, tests and packaging were written with OpenAI Codex assistance.
+New implementation author: dhtfish98. Runtime, tests and packaging implement the declared finite scope.
 The project does not call or bundle the old parser. Microsoft Open Specifications
 define the format independently; this is a finite structural review, not a full
 rewrite of every Windows Shell namespace or application-specific property decoder.

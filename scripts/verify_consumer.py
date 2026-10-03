@@ -19,7 +19,7 @@ def main():
         "source_import_instead_of_installed_package"
     )
     assert Path(sys.prefix).resolve() in installed.parents and "site-packages" in installed.parts
-    assert importlib.metadata.version("lnk-evidence-review") == "0.1.0"
+    assert importlib.metadata.version("lnk-evidence-review") == "0.1.1"
     checked = []
     for path in sorted((source / "src/lnk_evidence_review").glob("*")):
         if not path.is_file():

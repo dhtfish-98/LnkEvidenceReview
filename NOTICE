@@ -1,5 +1,5 @@
 LnkEvidenceReview is an independently written defensive implementation, developed
-with OpenAI Codex assistance. It is not an official release of LnkParse3,
+by dhtfish98. It is not an official release of LnkParse3,
 Microsoft, or a CVP-approved project.
 
 The selected original implementation studied is Matmaus/LnkParse3, fixed commit

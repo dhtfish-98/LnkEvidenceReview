@@ -10,11 +10,13 @@ class InputOpen(Exception):
 
 
 def read_snapshot(path, maximum):
+    dir_fd_support = getattr(os, "supports_dir_fd", None)
     flags = ("O_DIRECTORY", "O_NOFOLLOW", "O_CLOEXEC", "O_NONBLOCK")
     if (
         os.name != "posix"
-        or not all(hasattr(os, name) for name in flags)
-        or os.open not in os.supports_dir_fd
+        or any(type(getattr(os, name, None)) is not int or getattr(os, name, None) <= 0 for name in flags)
+        or type(dir_fd_support) not in (set, frozenset)
+        or os.open not in dir_fd_support
     ):
         raise InputOpen("snapshot_platform_unsupported")
     if type(path) is not str or not path or "\0" in path or ".." in path.split(os.sep):

@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lnk-evidence-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded offline Windows Shell Link structure and reference metadata evidence"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
+authors = [{name = "dhtfish98"}]
 dependencies = []
 
 [project.scripts]
