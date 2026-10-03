@@ -1,12 +1,11 @@
 # Source and independent implementation
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 The reference project is [Matmaus/LnkParse3](https://github.com/Matmaus/LnkParse3),
-fixed at `ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb`, under MIT. The original
-license is copied verbatim to `licenses/LnkParse3-MIT.txt`, retaining its original
-2019 Matúš Jasnický and 2018 Silas Cutler attribution. `SOURCE_REVIEW.json` records
+fixed at `ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb`, under MIT. No LnkParse3 runtime or original sample is bundled, so its separate reference
+license copy is omitted. `SOURCE_REVIEW.json` records
 all 48 selected Python files (4093 physical lines), README and LICENSE: 50 full
 reads, each matched to local bytes, fixed Git tree blob identity and independently
 retrieved fixed raw bytes. This does not claim the complete repository's tests,

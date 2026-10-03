@@ -10,7 +10,7 @@ expands an environment variable, resolves a Shell namespace, invokes MSI, or run
 a command. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.1-py3-none-any.whl
+python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.2-py3-none-any.whl
 lnk-evidence-review /absolute/authorized/sample.lnk > review.json
 lnk-evidence-review /absolute/authorized/sample.lnk --ansi-codepage cp1252 --show-text
 ```

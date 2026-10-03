@@ -1,13 +1,14 @@
-LnkEvidenceReview is an independently written defensive implementation, developed
-by dhtfish98. It is not an official release of LnkParse3,
-Microsoft, or a CVP-approved project.
+LnkEvidenceReview
+Copyright 2026 dhtfish98. New finite Shell Link evidence implementation, MIT.
 
-The selected original implementation studied is Matmaus/LnkParse3, fixed commit
-ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb. Its original MIT license and copyright
-attribution are preserved verbatim in licenses/LnkParse3-MIT.txt.
+Design reference: Matmaus/LnkParse3 at
+ad4230280b4ee1ceb3cdf5f274e6d92fb12e7abb; no original parser or shortcut is bundled.
 
-No original runtime, generated shortcut, captured personal shortcut, or target
-program is bundled or executed. Tests use synthetic metadata plus the 459-byte
-file example from Microsoft MS-SHLLINK 10.0 section 3.1. Microsoft's Open
-Specifications permission for sample implementations/examples applies to that
-small fixture; the complete specifications are not redistributed.
+The exact 459-byte tests/ms-shllink-10.0-file.hex fixture is Microsoft
+MS-SHLLINK 10.0 section 3.1, not newly authored project data. Microsoft Open
+Specifications permission applies to that small example; the complete specification
+is not distributed. Source identity and byte hash remain in ORIGIN.md.
+
+The separately released offline-build-tools archive contains unchanged genuine
+third-party build-tool wheels and their original runtime/vendor licenses and notices.
+The new parser MIT license does not replace those tools' terms or authors.

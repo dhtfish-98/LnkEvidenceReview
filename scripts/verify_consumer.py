@@ -8,6 +8,7 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+import tomllib
 
 import lnk_evidence_review
 
@@ -19,7 +20,8 @@ def main():
         "source_import_instead_of_installed_package"
     )
     assert Path(sys.prefix).resolve() in installed.parents and "site-packages" in installed.parts
-    assert importlib.metadata.version("lnk-evidence-review") == "0.1.1"
+    current_version = tomllib.loads((source / "pyproject.toml").read_text())["project"]["version"]
+    assert importlib.metadata.version("lnk-evidence-review") == current_version
     checked = []
     for path in sorted((source / "src/lnk_evidence_review").glob("*")):
         if not path.is_file():

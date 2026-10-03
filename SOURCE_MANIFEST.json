@@ -1,9 +1,10 @@
 {
   "schema": 1,
   "project": "LnkEvidenceReview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "implementation_author": "dhtfish98",
   "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
   "files": [
     {
       "path": ".github/workflows/verify.yml",
@@ -17,8 +18,8 @@
     },
     {
       "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "2897c7c585c88446167f97a991eb014eedfa613f58dc6a95b23a8e1f822e6750",
-      "bytes": 936
+      "sha256": "e728d0be99c16bee4f527cb80d7ea3e9a0310740aee83b5050ba5872d1482ba2",
+      "bytes": 1052
     },
     {
       "path": "DEFENSIVE_SCOPE.md",
@@ -31,29 +32,34 @@
       "bytes": 1066
     },
     {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "3320c377f2f985bed3209a4d2136d7f220ed885e0e1fb59a7e3afbb9657993ab",
+      "bytes": 788
+    },
+    {
       "path": "MANIFEST.in",
-      "sha256": "fc3ddf76177bc3b0df65c335700e50c106bc8d40998eacf3af6167c2a20516e5",
-      "bytes": 347
+      "sha256": "259e73f44604c3ca072c5479f34d56a687f7297a9f07a6eb90f6f42224bb6d60",
+      "bytes": 344
     },
     {
       "path": "NOTICE",
-      "sha256": "06eb2d568b73a3b1250d6f832ea6c8bd33a29e45520e780e0d5e76f7f9dffa36",
-      "bytes": 783
+      "sha256": "e84a2d10f339fe2551b63bf74850fe255e09112a6c228ab7db77e267c41f7c6b",
+      "bytes": 766
     },
     {
       "path": "ORIGIN.md",
-      "sha256": "7af441c775b6b934d63f1303113646c6fde09836ba58ca150086f1b1e84cce21",
-      "bytes": 2874
+      "sha256": "602bd610792d9163ba6de4d427344a5439071e71e379449c0d8fa83b35d578fc",
+      "bytes": 2823
     },
     {
       "path": "README.md",
-      "sha256": "6fdcb7fa2775b23045f983997c9e39046b49939cb0f3226ae761ee35fb1b0d61",
+      "sha256": "c0953a6c71193dc81ea2a31c3c1a26b312c67a9154bf3862e4bfde6898878a46",
       "bytes": 5665
     },
     {
       "path": "SOURCE_AUDIT.json",
-      "sha256": "b61b5c7b7e3da2fb70e81328f25699cb72e42d96a9e49ebe793695a99d4ba33e",
-      "bytes": 7358
+      "sha256": "0a76665c86cc55464b0ec59741ac88b23c3494d78d468832d4b35ca3b8c56cd4",
+      "bytes": 7355
     },
     {
       "path": "SOURCE_REVIEW.json",
@@ -62,18 +68,13 @@
     },
     {
       "path": "VALIDATION.md",
-      "sha256": "81e7f09abd80fbbd19ddafcf2750c395e9e4fe01bef138d85435ab490bd8a639",
-      "bytes": 4755
-    },
-    {
-      "path": "licenses/LnkParse3-MIT.txt",
-      "sha256": "f87b93b2508c109a6bd212eb9f7cb0d572a08bd5ae21d487e982d2fa1efc7735",
-      "bytes": 1116
+      "sha256": "25fb073dfe66699d997f28e6ffdf9beade0084a3679f446f735294519ecd4c09",
+      "bytes": 6053
     },
     {
       "path": "pyproject.toml",
-      "sha256": "7767ca3a1e79f8d763081fe12542119516ff2cd29c16a6dd57be8c6a8f0a5767",
-      "bytes": 948
+      "sha256": "9e3695da66bc0a008b9a07e7bb37d6bed8f9a2cffa2b6eb44d89242b660fd7b7",
+      "bytes": 930
     },
     {
       "path": "requirements-build.lock",
@@ -82,12 +83,12 @@
     },
     {
       "path": "scripts/verify_consumer.py",
-      "sha256": "52562c72292fdc40266dd115b2061ea5c2e9c51a0eccbc6c61c81bc0dc16054e",
-      "bytes": 4923
+      "sha256": "3d1d1fa345d573fc19f312d311bc4c7421092b25f2523c405b2a93be51c64e04",
+      "bytes": 5045
     },
     {
       "path": "src/lnk_evidence_review/__init__.py",
-      "sha256": "28325112becac86d0ef30ab4fe460ef3bc23d261f2c2fbd15364ea57a7b018a1",
+      "sha256": "3d677eb77a52615570eb0daa31ccc978b0d49f0af66da56f46579083c28e67d9",
       "bytes": 238
     },
     {
