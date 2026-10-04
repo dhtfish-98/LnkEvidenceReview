@@ -26,7 +26,7 @@ where = ["src"]
 lnk_evidence_review = ["py.typed"]
 
 [tool.setuptools.data-files]
-"share/lnk-evidence-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_REVIEW.json", "SOURCE_AUDIT.json", "requirements-build.lock"]
+"share/lnk-evidence-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "项目文档/SOURCE_REVIEW.json", "项目文档/SOURCE_AUDIT.json", "requirements-build.lock"]
 
 [tool.ruff]
 line-length = 100

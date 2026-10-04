@@ -6,6 +6,11 @@
   "base_public_commit": "a3bb46d2b91e4c932508bdf4db020bac11d4767e",
   "restored_inputs": [
     {
+      "original": "ATTRIBUTION_UPDATE.json",
+      "stored": "项目文档/ATTRIBUTION_UPDATE.json",
+      "sha256": "e728d0be99c16bee4f527cb80d7ea3e9a0310740aee83b5050ba5872d1482ba2"
+    },
+    {
       "original": "DEFENSIVE_SCOPE.md",
       "stored": "项目文档/DEFENSIVE_SCOPE.md",
       "sha256": "1ed2d92e0fe7fb04a09b4b58560facfef1253cbe762a69972583e44d89c6f713"
@@ -33,7 +38,17 @@
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "3d1ac4f8b7e5b9319bb5b20dce4e36b56856d5d4e666bd96ac9d4808d2fd3e8e"
+      "sha256": "1d3c3984a324ca07ecd64e1228a478d78792bcda04924090ee1512aed4d09fcd"
+    },
+    {
+      "original": "SOURCE_AUDIT.json",
+      "stored": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "0a76665c86cc55464b0ec59741ac88b23c3494d78d468832d4b35ca3b8c56cd4"
+    },
+    {
+      "original": "SOURCE_REVIEW.json",
+      "stored": "项目文档/SOURCE_REVIEW.json",
+      "sha256": "e6a717e90052d29344244297887d6b91b1eb08c85c624b2fed8a46e8406e1659"
     },
     {
       "original": "VALIDATION.md",

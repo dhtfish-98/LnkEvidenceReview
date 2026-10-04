@@ -82,7 +82,7 @@ in each report. Fixed-field bytes after their first NUL are undefined and are ne
 interpreted as text, but the containing structure hash includes them.
 
 The original selected source, independent implementation boundaries and attribution
-are documented in [ORIGIN.md](<ORIGIN.md>), [SOURCE_REVIEW.json](<../SOURCE_REVIEW.json>)
+are documented in [ORIGIN.md](<ORIGIN.md>), [SOURCE_REVIEW.json](<SOURCE_REVIEW.json>)
 and [NOTICE](<NOTICE>). Validation evidence is in [VALIDATION.md](<VALIDATION.md>).
 
 Safe local file input requires positive integer `O_DIRECTORY`, `O_NOFOLLOW`, `O_CLOEXEC`, `O_NONBLOCK` flags, plus directory-relative operations only where used by this reader. Missing, None, zero or boolean flags return the existing controlled unsupported/error result before opening input. File-reader validation covers macOS/Linux; native Windows safe file reading is not established.

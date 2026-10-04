@@ -17,29 +17,14 @@
       "bytes": 222
     },
     {
-      "path": "ATTRIBUTION_UPDATE.json",
-      "sha256": "e728d0be99c16bee4f527cb80d7ea3e9a0310740aee83b5050ba5872d1482ba2",
-      "bytes": 1052
-    },
-    {
       "path": "MANIFEST.in",
-      "sha256": "9eb7c1a279c020900c01d05fdf92d0a00a8a2448badb08f530d656b224c9c2c0",
-      "bytes": 939
-    },
-    {
-      "path": "SOURCE_AUDIT.json",
-      "sha256": "0a76665c86cc55464b0ec59741ac88b23c3494d78d468832d4b35ca3b8c56cd4",
-      "bytes": 7355
-    },
-    {
-      "path": "SOURCE_REVIEW.json",
-      "sha256": "e6a717e90052d29344244297887d6b91b1eb08c85c624b2fed8a46e8406e1659",
-      "bytes": 25666
+      "sha256": "a9219584a570b903d060e27f35ed2b98ec31123928c58a053078adbe24027f65",
+      "bytes": 978
     },
     {
       "path": "pyproject.toml",
-      "sha256": "fa642418caa9ae3b87a4e8270691ba4d370789f9a6dc25500a9df9dff54bc13b",
-      "bytes": 1008
+      "sha256": "152f6449b4c3debc7c0737f47cc76f54dfd4628f1f83f6579fabf0c513154275",
+      "bytes": 1034
     },
     {
       "path": "requirements-build.lock",
@@ -152,9 +137,14 @@
       "path": "构建.py"
     },
     {
-      "sha256": "9d41eedca1a50ba74613d63062ccaeda13019e60b1993505a9bb5839e148fa46",
-      "bytes": 1463,
+      "sha256": "a11769b6d6772fdb6497aae083d5c2c1f2f344dfaf398238354fc8c48f3a29ae",
+      "bytes": 2032,
       "path": "构建配置.json"
+    },
+    {
+      "path": "项目文档/ATTRIBUTION_UPDATE.json",
+      "sha256": "e728d0be99c16bee4f527cb80d7ea3e9a0310740aee83b5050ba5872d1482ba2",
+      "bytes": 1052
     },
     {
       "path": "项目文档/DEFENSIVE_SCOPE.md",
@@ -183,8 +173,18 @@
     },
     {
       "path": "项目文档/README.md",
-      "sha256": "3d1ac4f8b7e5b9319bb5b20dce4e36b56856d5d4e666bd96ac9d4808d2fd3e8e",
-      "bytes": 6033
+      "sha256": "1d3c3984a324ca07ecd64e1228a478d78792bcda04924090ee1512aed4d09fcd",
+      "bytes": 6030
+    },
+    {
+      "path": "项目文档/SOURCE_AUDIT.json",
+      "sha256": "0a76665c86cc55464b0ec59741ac88b23c3494d78d468832d4b35ca3b8c56cd4",
+      "bytes": 7355
+    },
+    {
+      "path": "项目文档/SOURCE_REVIEW.json",
+      "sha256": "e6a717e90052d29344244297887d6b91b1eb08c85c624b2fed8a46e8406e1659",
+      "bytes": 25666
     },
     {
       "path": "项目文档/VALIDATION.md",
