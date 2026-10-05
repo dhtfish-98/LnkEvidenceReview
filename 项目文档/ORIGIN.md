@@ -1,6 +1,6 @@
 # Source and independent implementation
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.4**. Upstream authors and reused components retain their original attribution.
 
 
 The reference project is [Matmaus/LnkParse3](https://github.com/Matmaus/LnkParse3),

@@ -2,7 +2,7 @@
 
 # LnkEvidenceReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.4**. Upstream authors and reused components retain their original attribution.
 
 
 Read one caller-supplied Windows `.lnk` byte snapshot and produce bounded structure,
@@ -12,7 +12,7 @@ expands an environment variable, resolves a Shell namespace, invokes MSI, or run
 a command. There are no runtime dependencies.
 
 ```sh
-python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.3-py3-none-any.whl
+python -m pip install --no-index --no-deps dist/lnk_evidence_review-0.1.4-py3-none-any.whl
 lnk-evidence-review /absolute/authorized/sample.lnk > review.json
 lnk-evidence-review /absolute/authorized/sample.lnk --ansi-codepage cp1252 --show-text
 ```

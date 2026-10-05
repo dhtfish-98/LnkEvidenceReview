@@ -33,12 +33,12 @@
     {
       "original": "ORIGIN.md",
       "stored": "项目文档/ORIGIN.md",
-      "sha256": "602bd610792d9163ba6de4d427344a5439071e71e379449c0d8fa83b35d578fc"
+      "sha256": "0787cb6bfa88d43c58753c6ded5d10851db33bee28edd55f5a76a16569e56b3d"
     },
     {
       "original": "README.md",
       "stored": "项目文档/README.md",
-      "sha256": "5696f41d86ab7ce40e43e5da158f2512a5fb59f19e5052c7aec32fcfe811d8e4"
+      "sha256": "fe4991db73607ac2fa407a3823718902a8f5c0b3d7ccc46dee0b3855ca54936d"
     },
     {
       "original": "SOURCE_AUDIT.json",
@@ -53,7 +53,7 @@
     {
       "original": "VALIDATION.md",
       "stored": "项目文档/VALIDATION.md",
-      "sha256": "e01a92027bf548203ac4aaa727e23d01fb4026d5951523a31f985b98093b4207"
+      "sha256": "82b6747e41d2e7036b67d84db7296c87734033104407861981db2d1c99df8a17"
     }
   ],
   "platform_entries": []
